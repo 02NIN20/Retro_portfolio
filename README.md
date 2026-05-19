@@ -2,10 +2,6 @@
 
 Mi portafolio personal con estilo retro/terminal. Desarrollado con HTML, CSS y JavaScript vanilla.
 
-## Demo
-
-Visítalo en: **[tu-usuario.github.io](https://tu-usuario.github.io)**
-
 ## Características
 
 - Diseño retro/terminal estilo Linux
