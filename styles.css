@@ -1252,8 +1252,9 @@ section {
 }
 
 [data-theme="light"] .ascii-banner {
-  opacity: 0.35;
-  filter: grayscale(100%);
+  opacity: 0.7;
+  filter: none;
+  color: #4a6a4a;
 }
 
 [data-theme="light"] .scroll-indicator {

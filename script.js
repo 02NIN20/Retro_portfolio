@@ -145,3 +145,28 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
+function sendEmail() {
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
+  
+  if (!name || !email || !message) {
+    alert('Por favor completa todos los campos');
+    return;
+  }
+  
+  const subject = encodeURIComponent('Portafolio: Mensaje de ' + name);
+  const body = encodeURIComponent('Nombre: ' + name + '\nEmail: ' + email + '\n\nMensaje:\n' + message);
+  
+  window.location.href = 'mailto:lycoronelp@udistrital.edu.co?subject=' + subject + '&body=' + body;
+}
+
+function copyEmail() {
+  const email = 'lycoronelp@udistrital.edu.co';
+  navigator.clipboard.writeText(email).then(() => {
+    alert('Email copiado al portapapeles: ' + email);
+  }).catch(() => {
+    prompt('Copia este email:', email);
+  });
+}
