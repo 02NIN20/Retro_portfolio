@@ -23,11 +23,11 @@ Visítalo en: **[tu-usuario.github.io](https://tu-usuario.github.io)**
 ## Estructura
 
 ```
-├── index.html       # Página principal
-├── styles.css       # Estilos
-├── script.js        # Funcionalidad
-├── 1759977124930.jpeg  # Foto de perfil
-└── README.md        # Este archivo
+├── index.html 
+├── styles.css
+├── script.js       
+├── perfil.jpeg  
+└── README.md 
 ```
 
 ## Customización
